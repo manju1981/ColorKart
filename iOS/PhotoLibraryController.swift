@@ -55,7 +55,7 @@ class PhotoLibraryController: UIViewController, UIImagePickerControllerDelegate,
   }
   
   func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
-    let imageURL = info[UIImagePickerControllerReferenceURL] as NSURL
+    let imageURL = info[UIImagePickerControllerReferenceURL] as! NSURL
     
      
     

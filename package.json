@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "react": "^0.13.3",
+    "react-native-blur": "^0.5.4",
     "react-native-router": "^0.2.1"
   }
 }

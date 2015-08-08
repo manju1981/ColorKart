@@ -29,10 +29,10 @@
 		9C50F4DD1B6B0DBE00E0F14B /* PhotoLibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50F4DC1B6B0DBE00E0F14B /* PhotoLibraryController.swift */; };
 		9C73F53C1B649A6A002CF1B2 /* UIImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C73F53B1B649A6A002CF1B2 /* UIImagePickerManager.m */; };
 		9C73F5571B65241B002CF1B2 /* libRNOverlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C73F5561B6523EC002CF1B2 /* libRNOverlay.a */; };
-		9C73F5871B652B9A002CF1B2 /* BlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C73F5841B652B9A002CF1B2 /* BlurView.m */; };
-		9C73F5881B652B9A002CF1B2 /* BlurViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C73F5861B652B9A002CF1B2 /* BlurViewManager.m */; };
-		9C73F58E1B652BAC002CF1B2 /* VibrancyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C73F58B1B652BAC002CF1B2 /* VibrancyView.m */; };
-		9C73F58F1B652BAC002CF1B2 /* VibrancyViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C73F58D1B652BAC002CF1B2 /* VibrancyViewManager.m */; };
+		FA7CE0971B75CFF20065A1CE /* BlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CE0961B75CFF20065A1CE /* BlurView.m */; };
+		FA7CE0991B75D0160065A1CE /* BlurViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CE0981B75D0160065A1CE /* BlurViewManager.m */; };
+		FA7CE09B1B75D0250065A1CE /* VibrancyView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CE09A1B75D0250065A1CE /* VibrancyView.m */; };
+		FA7CE09D1B75D0360065A1CE /* VibrancyViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CE09C1B75D0360065A1CE /* VibrancyViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +160,10 @@
 		9C73F58B1B652BAC002CF1B2 /* VibrancyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VibrancyView.m; sourceTree = "<group>"; };
 		9C73F58C1B652BAC002CF1B2 /* VibrancyViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VibrancyViewManager.h; sourceTree = "<group>"; };
 		9C73F58D1B652BAC002CF1B2 /* VibrancyViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VibrancyViewManager.m; sourceTree = "<group>"; };
+		FA7CE0961B75CFF20065A1CE /* BlurView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BlurView.m; path = "node_modules/react-native-blur/RNBlur/BlurView.m"; sourceTree = "<group>"; };
+		FA7CE0981B75D0160065A1CE /* BlurViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BlurViewManager.m; path = "node_modules/react-native-blur/RNBlur/BlurViewManager.m"; sourceTree = "<group>"; };
+		FA7CE09A1B75D0250065A1CE /* VibrancyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = VibrancyView.m; path = "node_modules/react-native-blur/RNVibrancy/VibrancyView.m"; sourceTree = "<group>"; };
+		FA7CE09C1B75D0360065A1CE /* VibrancyViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = VibrancyViewManager.m; path = "node_modules/react-native-blur/RNVibrancy/VibrancyViewManager.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +334,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FA7CE09C1B75D0360065A1CE /* VibrancyViewManager.m */,
+				FA7CE09A1B75D0250065A1CE /* VibrancyView.m */,
+				FA7CE0981B75D0160065A1CE /* BlurViewManager.m */,
+				FA7CE0961B75CFF20065A1CE /* BlurView.m */,
 				9C73F5891B652BAC002CF1B2 /* RNVibrancy */,
 				9C73F5821B652B9A002CF1B2 /* RNBlur */,
 				13B07FAE1A68108700A75B9A /* HelloWorld */,
@@ -613,17 +621,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7CE09D1B75D0360065A1CE /* VibrancyViewManager.m in Sources */,
+				FA7CE09B1B75D0250065A1CE /* VibrancyView.m in Sources */,
+				FA7CE0991B75D0160065A1CE /* BlurViewManager.m in Sources */,
+				FA7CE0971B75CFF20065A1CE /* BlurView.m in Sources */,
 				9C50F46D1B6A415100E0F14B /* MCFileWriterUtil.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				9C73F5871B652B9A002CF1B2 /* BlurView.m in Sources */,
-				9C73F58E1B652BAC002CF1B2 /* VibrancyView.m in Sources */,
 				9C50F4DD1B6B0DBE00E0F14B /* PhotoLibraryController.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				9C73F58F1B652BAC002CF1B2 /* VibrancyViewManager.m in Sources */,
 				9C50F4D01B6B0C5200E0F14B /* PhotoLibrary.m in Sources */,
 				9C50F4B81B6A453500E0F14B /* MCFileWriterUtil.swift in Sources */,
 				9C73F53C1B649A6A002CF1B2 /* UIImagePickerManager.m in Sources */,
-				9C73F5881B652B9A002CF1B2 /* BlurViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,12 +700,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = HelloWorld;
@@ -711,12 +721,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = HelloWorld;
