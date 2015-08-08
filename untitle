@@ -1,0 +1,1 @@
+db.outlets.find( { loc: { $within: { $centerSphere: [ [ 77.4831368, 12.984977 ] ,1 / 6378.137 ] } } } )

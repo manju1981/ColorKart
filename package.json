@@ -1,0 +1,17 @@
+{
+  "name": "HelloWorld",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "react-native": "^0.7.1",
+    "react-native-image-picker": "^0.3.2",
+    "react-native-overlay": "^0.2.8"
+  },
+  "devDependencies": {
+    "react": "^0.13.3",
+    "react-native-router": "^0.2.1"
+  }
+}
