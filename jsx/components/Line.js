@@ -1,6 +1,10 @@
 'use strict';
 
 var React = require('react-native');
+var Dimensions = require('Dimensions');
+// TODO: Dimensions may dissapear in next versions,
+// or we we will be able to subscribe to dimensions change
+var {width, height} = Dimensions.get('window');
 var {
   StyleSheet,
   View
@@ -27,7 +31,7 @@ var styles = StyleSheet.create({
     marginTop: 10,
     marginBottom: 10,
     height: 1,
-    width: 260,
+    width: width - 60,
     alignSelf: 'center',
     backgroundColor: 'white',
   },
