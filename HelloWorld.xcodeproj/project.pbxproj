@@ -32,6 +32,12 @@
 		B181A76C1B75CC6D00B9AFA4 /* BlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = B181A76B1B75CC6D00B9AFA4 /* BlurView.m */; };
 		B181A76E1B75CC7E00B9AFA4 /* VibrancyViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B181A76D1B75CC7E00B9AFA4 /* VibrancyViewManager.m */; };
 		B181A7701B75CC9C00B9AFA4 /* BlurViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B181A76F1B75CC9C00B9AFA4 /* BlurViewManager.m */; };
+		FA28B4371B77C06B00A0D096 /* screen_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28B41A1B77BFE700A0D096 /* screen_1@2x.png */; };
+		FA28B4381B77C06B00A0D096 /* screen_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28B41B1B77BFE700A0D096 /* screen_1@3x.png */; };
+		FA28B4391B77C06B00A0D096 /* screen_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28B41C1B77BFE700A0D096 /* screen_2@2x.png */; };
+		FA28B43A1B77C06B00A0D096 /* screen_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28B41D1B77BFE700A0D096 /* screen_2@3x.png */; };
+		FA28B43B1B77C06B00A0D096 /* screen_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28B41E1B77BFE700A0D096 /* screen_3@2x.png */; };
+		FA28B43C1B77C06B00A0D096 /* screen_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28B41F1B77BFE700A0D096 /* screen_3@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +169,12 @@
 		B181A76B1B75CC6D00B9AFA4 /* BlurView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BlurView.m; path = "node_modules/react-native-blur/RNBlur/BlurView.m"; sourceTree = "<group>"; };
 		B181A76D1B75CC7E00B9AFA4 /* VibrancyViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = VibrancyViewManager.m; path = "node_modules/react-native-blur/RNVibrancy/VibrancyViewManager.m"; sourceTree = "<group>"; };
 		B181A76F1B75CC9C00B9AFA4 /* BlurViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BlurViewManager.m; path = "node_modules/react-native-blur/RNBlur/BlurViewManager.m"; sourceTree = "<group>"; };
+		FA28B41A1B77BFE700A0D096 /* screen_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_1@2x.png"; sourceTree = "<group>"; };
+		FA28B41B1B77BFE700A0D096 /* screen_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_1@3x.png"; sourceTree = "<group>"; };
+		FA28B41C1B77BFE700A0D096 /* screen_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_2@2x.png"; sourceTree = "<group>"; };
+		FA28B41D1B77BFE700A0D096 /* screen_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_2@3x.png"; sourceTree = "<group>"; };
+		FA28B41E1B77BFE700A0D096 /* screen_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_3@2x.png"; sourceTree = "<group>"; };
+		FA28B41F1B77BFE700A0D096 /* screen_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_3@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,6 +345,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FA28B4191B77BFE700A0D096 /* Images */,
 				B181A76F1B75CC9C00B9AFA4 /* BlurViewManager.m */,
 				B181A76D1B75CC7E00B9AFA4 /* VibrancyViewManager.m */,
 				B181A76B1B75CC6D00B9AFA4 /* BlurView.m */,
@@ -387,6 +400,19 @@
 			);
 			name = RNVibrancy;
 			path = "node_modules/react-native-blur/RNVibrancy";
+			sourceTree = "<group>";
+		};
+		FA28B4191B77BFE700A0D096 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA28B41A1B77BFE700A0D096 /* screen_1@2x.png */,
+				FA28B41B1B77BFE700A0D096 /* screen_1@3x.png */,
+				FA28B41C1B77BFE700A0D096 /* screen_2@2x.png */,
+				FA28B41D1B77BFE700A0D096 /* screen_2@3x.png */,
+				FA28B41E1B77BFE700A0D096 /* screen_3@2x.png */,
+				FA28B41F1B77BFE700A0D096 /* screen_3@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -599,6 +625,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA28B4371B77C06B00A0D096 /* screen_1@2x.png in Resources */,
+				FA28B4381B77C06B00A0D096 /* screen_1@3x.png in Resources */,
+				FA28B4391B77C06B00A0D096 /* screen_2@2x.png in Resources */,
+				FA28B43A1B77C06B00A0D096 /* screen_2@3x.png in Resources */,
+				FA28B43B1B77C06B00A0D096 /* screen_3@2x.png in Resources */,
+				FA28B43C1B77C06B00A0D096 /* screen_3@3x.png in Resources */,
 				008F07F31AC5B25A0029DE68 /* main.jsbundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
