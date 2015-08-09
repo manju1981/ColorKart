@@ -8,11 +8,12 @@
   "dependencies": {
     "react-native": "^0.7.1",
     "react-native-image-picker": "^0.3.2",
+    "react-native-looped-carousel": "git+https://github.com/gbhasha/react-native-looped-carousel.git",
     "react-native-overlay": "^0.2.8"
   },
   "devDependencies": {
     "react": "^0.13.3",
     "react-native-blur": "^0.5.4",
-    "react-native-router": "^0.2.1"
+    "react-native-router": "git+https://github.com/gbhasha/react-native-router.git"
   }
 }
