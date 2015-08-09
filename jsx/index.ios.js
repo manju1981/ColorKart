@@ -1,7 +1,13 @@
 'use strict';
 
 var React = require('react-native');
-
+var Carousel = require('react-native-looped-carousel');
+var PromoImage = require('./components/PromoImage');
+var FilledButton = require('./components/FilledButton');
+var Dimensions = require('Dimensions');
+// TODO: Dimensions may dissapear in next versions,
+// or we we will be able to subscribe to dimensions change
+var {width, height} = Dimensions.get('window');
 var {
     AppRegistry,
     StyleSheet,
@@ -40,32 +46,40 @@ onLoadPress : function() {
 
 
     render: function() {
-
+      var pages = [<PromoImage
+                    key="promo1"
+                    image={require('image!screen_1')}
+                    header="Match"
+                    description="of everything that happens to your life"
+                    promoText="We will help you to find the great match"
+                  />,
+                  <PromoImage
+                    key="promo2"
+                    image={require('image!screen_2')}
+                    header="Try"
+                    description="our products at your home"
+                    promoText="We will deliver the products at your doorstep without any extra cost"
+                  />,
+                  <PromoImage
+                    key="promo3"
+                    image={require('image!screen_3')}
+                    header="Buy"
+                    description="with confidence using plenty of our payment options"
+                    promoText="We guarantee to deliver the best available in the world"
+                  />];
         return (
-            <View style={styles.container}>
-                        <Image
-                            resizeMode="cover"
-                            source={require('image!bw')}
-                            style={styles.image}  />
-                            <View style={styles.gradientContainer}>
-                            </View>
-                            <View style={styles.introTextContainer}>
-                              <Text style={styles.introText}>
-                                  Match-Try-Buy
-                                </Text>
-                            </View>
-                            <View style={styles.introSubTextContainer}>
-                              <Text style={styles.introSubText}>
-                                  Just upload your photo to match a sandle that you wanna buy!!
-                                </Text>
-                            </View>
-                            <TouchableHighlight underlayColor="#AA9999" onPress={this.onLoadPress}>
-                              <View style={styles.buttonContainer}>
-                                <Text style={styles.buttonText}>
-                                  Upload Photo
-                                </Text>
-                              </View>
-                            </TouchableHighlight>
+            <View style={styles.main}>
+                  <Carousel>{pages}</Carousel>
+
+                  <View style={styles.buttonContainer}>
+                    <FilledButton
+                              style={styles.button}
+                              highlightedColor='#007655'
+                              title='Upload Photo'
+                              titleStyle={{color:'white'}}
+                              onPress={this.onLoadPress}
+                            />
+                  </View>
            </View>
 
         );
@@ -73,84 +87,23 @@ onLoadPress : function() {
 });
 
 var styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'flex-end',
-        backgroundColor : '#F5FCFF',
-        position        : 'relative',
-    },
-
-    button : {
-        position: 'absolute',
-        backgroundColor: '#ff0000',
-        bottom  : 30,
-    },
-
-    image: {
-      position  : 'absolute',
-      top       : 20,
-      left      : 0,
-      right     : 0,
-      bottom    : 0,
-    },
-
-    buttonContainer : {
-        fontSize : 16,
-        color: '#ffffff',
-        backgroundColor: 'rgba(105,205,35,0.9)',
-        paddingTop: 15,
-        paddingBottom: 15,
-        paddingLeft: 25,
-        paddingRight: 25,
-        borderRadius: 5,
-        marginBottom: 30,
-    },
-
-    buttonText: {
-      color: '#ffffff',
-      fontSize: 18
-    },
-
-    introText: {
-      color: '#ffffff',
-      fontWeight: 'bold',
-      backgroundColor: 'rgba(0,0,0, 0)',
-      fontSize: 30,
-      paddingBottom: 10,
-      paddingLeft: 20,
-      paddingRight: 20,
-    },
-
-    introTextContainer: {
-      backgroundColor: 'rgba(0,0,0, 0)',
-      borderBottomColor: '#ffffff',
-      borderBottomWidth: 1,
-      marginBottom: 10,
-
-    },
-
-    introSubTextContainer: {
-      backgroundColor: 'rgba(0,0,0,0)',
-      paddingLeft: 20,
-      paddingRight: 20,
-      marginBottom: 40,
-    },
-
-    introSubText : {
-      textAlign: 'center',
-      fontSize: 14,
-      color: '#dddddd',
-    },
-
-    gradientContainer: {
-      backgroundColor: 'rgba(0,0,0,0.3)',
-      position  : 'absolute',
-      top       : 20,
-      left      : 0,
-      right     : 0,
-      bottom    : 0,
-    }
+  main: {
+    flex: 1,
+  },
+  buttonContainer: {
+    backgroundColor: 'transparent',
+    position: 'absolute',
+    width: width,
+    bottom: 30,
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+},
+ button: {
+   backgroundColor: 'rgba(14, 163, 120, 0.75)',
+   paddingVertical: 10,
+   paddingHorizontal: 25
+ }
 });
 
 AppRegistry.registerComponent('HelloWorld', () => CustomSwiftComponent);
