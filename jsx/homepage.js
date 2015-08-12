@@ -5,6 +5,7 @@ var Carousel = require('react-native-looped-carousel');
 var PromoImage = require('./components/PromoImage');
 var FilledButton = require('./components/FilledButton');
 var Dimensions = require('Dimensions');
+var Router = require('react-native-custom-navigation');
 
 // TODO: Dimensions may dissapear in next versions,
 // or we we will be able to subscribe to dimensions change
@@ -57,8 +58,7 @@ var HomePage = React.createClass({
    },
 
   goToTweet: function() {
-    this.props.toRoute({
-      name: "SecondPage",
+    this.props.route.push({
       component: SecondPage
     });
   },
