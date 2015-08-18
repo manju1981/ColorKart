@@ -22,16 +22,16 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		9C19BB161B83706700AA67BD /* libReactNativeIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C19BB141B83705400AA67BD /* libReactNativeIcons.a */; };
+		9C19BB1A1B83709000AA67BD /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C19BB171B83709000AA67BD /* FontAwesome.otf */; };
+		9C19BB1B1B83709000AA67BD /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C19BB181B83709000AA67BD /* foundation-icons.ttf */; };
+		9C19BB1C1B83709000AA67BD /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C19BB191B83709000AA67BD /* ionicons.ttf */; };
+		9C4D04661B837A670064FA58 /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C4D04651B837A670064FA58 /* Material-Design-Iconic-Font.ttf */; };
 		9C50F46D1B6A415100E0F14B /* MCFileWriterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50F46C1B6A415100E0F14B /* MCFileWriterUtil.m */; };
 		9C50F4B81B6A453500E0F14B /* MCFileWriterUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50F4B71B6A453500E0F14B /* MCFileWriterUtil.swift */; };
 		9C50F4D01B6B0C5200E0F14B /* PhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50F4CF1B6B0C5200E0F14B /* PhotoLibrary.m */; };
 		9C50F4DD1B6B0DBE00E0F14B /* PhotoLibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50F4DC1B6B0DBE00E0F14B /* PhotoLibraryController.swift */; };
 		9C73F53C1B649A6A002CF1B2 /* UIImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C73F53B1B649A6A002CF1B2 /* UIImagePickerManager.m */; };
-		9C73F5571B65241B002CF1B2 /* libRNOverlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C73F5561B6523EC002CF1B2 /* libRNOverlay.a */; };
-		B181A75F1B75CC5700B9AFA4 /* VibrancyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B181A75E1B75CC5700B9AFA4 /* VibrancyView.m */; };
-		B181A76C1B75CC6D00B9AFA4 /* BlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = B181A76B1B75CC6D00B9AFA4 /* BlurView.m */; };
-		B181A76E1B75CC7E00B9AFA4 /* VibrancyViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B181A76D1B75CC7E00B9AFA4 /* VibrancyViewManager.m */; };
-		B181A7701B75CC9C00B9AFA4 /* BlurViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B181A76F1B75CC9C00B9AFA4 /* BlurViewManager.m */; };
 		FA28B4371B77C06B00A0D096 /* screen_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28B41A1B77BFE700A0D096 /* screen_1@2x.png */; };
 		FA28B4381B77C06B00A0D096 /* screen_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28B41B1B77BFE700A0D096 /* screen_1@3x.png */; };
 		FA28B4391B77C06B00A0D096 /* screen_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28B41C1B77BFE700A0D096 /* screen_2@2x.png */; };
@@ -118,12 +118,12 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		9C73F5551B6523EC002CF1B2 /* PBXContainerItemProxy */ = {
+		9C19BB131B83705400AA67BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9C73F5471B6523EC002CF1B2 /* RNOverlay.xcodeproj */;
+			containerPortal = 9C19BB0F1B83705300AA67BD /* ReactNativeIcons.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RNOverlay;
+			remoteGlobalIDString = 2F5A3EB81ACDBF8000439386;
+			remoteInfo = ReactNativeIcons;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -149,6 +149,11 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		9C19BB0F1B83705300AA67BD /* ReactNativeIcons.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeIcons.xcodeproj; path = "node_modules/react-native-icons/ios/ReactNativeIcons.xcodeproj"; sourceTree = "<group>"; };
+		9C19BB171B83709000AA67BD /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FontAwesome.otf"; sourceTree = "<group>"; };
+		9C19BB181B83709000AA67BD /* foundation-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "foundation-icons.ttf"; path = "node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		9C19BB191B83709000AA67BD /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ionicons.ttf; path = "node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/ionicons.ttf"; sourceTree = "<group>"; };
+		9C4D04651B837A670064FA58 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Material-Design-Iconic-Font.ttf"; path = "node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
 		9C50F46C1B6A415100E0F14B /* MCFileWriterUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCFileWriterUtil.m; path = iOS/MCFileWriterUtil.m; sourceTree = "<group>"; };
 		9C50F4B61B6A453400E0F14B /* HelloWorld-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Bridging-Header.h"; sourceTree = "<group>"; };
 		9C50F4B71B6A453500E0F14B /* MCFileWriterUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MCFileWriterUtil.swift; path = iOS/MCFileWriterUtil.swift; sourceTree = "<group>"; };
@@ -156,7 +161,6 @@
 		9C50F4DC1B6B0DBE00E0F14B /* PhotoLibraryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoLibraryController.swift; path = iOS/PhotoLibraryController.swift; sourceTree = "<group>"; };
 		9C73F5301B649A5D002CF1B2 /* UIImagePickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImagePickerManager.h; path = "node_modules/react-native-image-picker/UIImagePickerManager.h"; sourceTree = "<group>"; };
 		9C73F53B1B649A6A002CF1B2 /* UIImagePickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIImagePickerManager.m; path = "node_modules/react-native-image-picker/UIImagePickerManager.m"; sourceTree = "<group>"; };
-		9C73F5471B6523EC002CF1B2 /* RNOverlay.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNOverlay.xcodeproj; path = "node_modules/react-native-overlay/RNOverlay.xcodeproj"; sourceTree = "<group>"; };
 		9C73F5831B652B9A002CF1B2 /* BlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurView.h; sourceTree = "<group>"; };
 		9C73F5841B652B9A002CF1B2 /* BlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurView.m; sourceTree = "<group>"; };
 		9C73F5851B652B9A002CF1B2 /* BlurViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurViewManager.h; sourceTree = "<group>"; };
@@ -165,10 +169,6 @@
 		9C73F58B1B652BAC002CF1B2 /* VibrancyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VibrancyView.m; sourceTree = "<group>"; };
 		9C73F58C1B652BAC002CF1B2 /* VibrancyViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VibrancyViewManager.h; sourceTree = "<group>"; };
 		9C73F58D1B652BAC002CF1B2 /* VibrancyViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VibrancyViewManager.m; sourceTree = "<group>"; };
-		B181A75E1B75CC5700B9AFA4 /* VibrancyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = VibrancyView.m; path = "node_modules/react-native-blur/RNVibrancy/VibrancyView.m"; sourceTree = "<group>"; };
-		B181A76B1B75CC6D00B9AFA4 /* BlurView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BlurView.m; path = "node_modules/react-native-blur/RNBlur/BlurView.m"; sourceTree = "<group>"; };
-		B181A76D1B75CC7E00B9AFA4 /* VibrancyViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = VibrancyViewManager.m; path = "node_modules/react-native-blur/RNVibrancy/VibrancyViewManager.m"; sourceTree = "<group>"; };
-		B181A76F1B75CC9C00B9AFA4 /* BlurViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BlurViewManager.m; path = "node_modules/react-native-blur/RNBlur/BlurViewManager.m"; sourceTree = "<group>"; };
 		FA28B41A1B77BFE700A0D096 /* screen_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_1@2x.png"; sourceTree = "<group>"; };
 		FA28B41B1B77BFE700A0D096 /* screen_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_1@3x.png"; sourceTree = "<group>"; };
 		FA28B41C1B77BFE700A0D096 /* screen_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_2@2x.png"; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C73F5571B65241B002CF1B2 /* libRNOverlay.a in Frameworks */,
+				9C19BB161B83706700AA67BD /* libReactNativeIcons.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -319,7 +319,6 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				9C73F5471B6523EC002CF1B2 /* RNOverlay.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
@@ -345,11 +344,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				9C4D04651B837A670064FA58 /* Material-Design-Iconic-Font.ttf */,
+				9C19BB171B83709000AA67BD /* FontAwesome.otf */,
+				9C19BB181B83709000AA67BD /* foundation-icons.ttf */,
+				9C19BB191B83709000AA67BD /* ionicons.ttf */,
+				9C19BB0F1B83705300AA67BD /* ReactNativeIcons.xcodeproj */,
 				FA28B4191B77BFE700A0D096 /* Images */,
-				B181A76F1B75CC9C00B9AFA4 /* BlurViewManager.m */,
-				B181A76D1B75CC7E00B9AFA4 /* VibrancyViewManager.m */,
-				B181A76B1B75CC6D00B9AFA4 /* BlurView.m */,
-				B181A75E1B75CC5700B9AFA4 /* VibrancyView.m */,
 				9C73F5891B652BAC002CF1B2 /* RNVibrancy */,
 				9C73F5821B652B9A002CF1B2 /* RNBlur */,
 				13B07FAE1A68108700A75B9A /* HelloWorld */,
@@ -370,10 +370,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C73F5481B6523EC002CF1B2 /* Products */ = {
+		9C19BB101B83705300AA67BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C73F5561B6523EC002CF1B2 /* libRNOverlay.a */,
+				9C19BB141B83705400AA67BD /* libReactNativeIcons.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -521,8 +521,8 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = 9C73F5481B6523EC002CF1B2 /* Products */;
-					ProjectRef = 9C73F5471B6523EC002CF1B2 /* RNOverlay.xcodeproj */;
+					ProductGroup = 9C19BB101B83705300AA67BD /* Products */;
+					ProjectRef = 9C19BB0F1B83705300AA67BD /* ReactNativeIcons.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -604,11 +604,11 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9C73F5561B6523EC002CF1B2 /* libRNOverlay.a */ = {
+		9C19BB141B83705400AA67BD /* libReactNativeIcons.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libRNOverlay.a;
-			remoteRef = 9C73F5551B6523EC002CF1B2 /* PBXContainerItemProxy */;
+			path = libReactNativeIcons.a;
+			remoteRef = 9C19BB131B83705400AA67BD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -625,6 +625,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4D04661B837A670064FA58 /* Material-Design-Iconic-Font.ttf in Resources */,
+				9C19BB1A1B83709000AA67BD /* FontAwesome.otf in Resources */,
+				9C19BB1B1B83709000AA67BD /* foundation-icons.ttf in Resources */,
+				9C19BB1C1B83709000AA67BD /* ionicons.ttf in Resources */,
 				FA28B4371B77C06B00A0D096 /* screen_1@2x.png in Resources */,
 				FA28B4381B77C06B00A0D096 /* screen_1@3x.png in Resources */,
 				FA28B4391B77C06B00A0D096 /* screen_2@2x.png in Resources */,
@@ -651,10 +655,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B181A7701B75CC9C00B9AFA4 /* BlurViewManager.m in Sources */,
-				B181A76E1B75CC7E00B9AFA4 /* VibrancyViewManager.m in Sources */,
-				B181A76C1B75CC6D00B9AFA4 /* BlurView.m in Sources */,
-				B181A75F1B75CC5700B9AFA4 /* VibrancyView.m in Sources */,
 				9C50F46D1B6A415100E0F14B /* MCFileWriterUtil.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				9C50F4DD1B6B0DBE00E0F14B /* PhotoLibraryController.swift in Sources */,

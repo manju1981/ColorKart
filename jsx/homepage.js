@@ -4,17 +4,14 @@ var React = require('react-native');
 var Carousel = require('react-native-looped-carousel');
 var PromoImage = require('./components/PromoImage');
 var FilledButton = require('./components/FilledButton');
-var Dimensions = require('Dimensions');
 var Router = require('react-native-custom-navigation');
 
-// TODO: Dimensions may dissapear in next versions,
-// or we we will be able to subscribe to dimensions change
 
-var {width, height} = Dimensions.get('window');
 var SecondPage = require('./secondpage');
 
 var {
     AppRegistry,
+    Dimensions,
     StyleSheet,
     Text,
     TextInput,
@@ -22,6 +19,8 @@ var {
     Image,
     TouchableHighlight
 } = React;
+
+var {width, height} = Dimensions.get('window');
 
 var {
     PhotoLibrary
