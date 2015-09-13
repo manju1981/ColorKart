@@ -48,13 +48,13 @@ class PhotoLibraryController: UIViewController, UIImagePickerControllerDelegate,
     UIApplication.sharedApplication().keyWindow?.rootViewController?.dismissViewControllerAnimated(true, completion: nil)
     
     let resultsDict = [
-      "imageUrl" : imageURL.absoluteString!
+      "imageUrl" : imageURL.absoluteString
     ];
     self.jscallback([resultsDict]);
     
   }
   
-  func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+  func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
     let imageURL = info[UIImagePickerControllerReferenceURL] as! NSURL
     
      

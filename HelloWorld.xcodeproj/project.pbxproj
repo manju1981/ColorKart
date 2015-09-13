@@ -31,6 +31,22 @@
 		9C50F4B81B6A453500E0F14B /* MCFileWriterUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50F4B71B6A453500E0F14B /* MCFileWriterUtil.swift */; };
 		9C50F4D01B6B0C5200E0F14B /* PhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C50F4CF1B6B0C5200E0F14B /* PhotoLibrary.m */; };
 		9C50F4DD1B6B0DBE00E0F14B /* PhotoLibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50F4DC1B6B0DBE00E0F14B /* PhotoLibraryController.swift */; };
+		9C62A9E31BA58F6C0091E44B /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9D11BA58F6C0091E44B /* Socket.swift */; };
+		9C62A9E41BA58F6C0091E44B /* SocketBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9D31BA58F6C0091E44B /* SocketBridge.m */; };
+		9C62A9E51BA58F6C0091E44B /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9D51BA58F6C0091E44B /* SocketAckManager.swift */; };
+		9C62A9E61BA58F6C0091E44B /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9D61BA58F6C0091E44B /* SocketAnyEvent.swift */; };
+		9C62A9E71BA58F6C0091E44B /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9D71BA58F6C0091E44B /* SocketEngine.swift */; };
+		9C62A9E81BA58F6C0091E44B /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9D81BA58F6C0091E44B /* SocketEngineClient.swift */; };
+		9C62A9E91BA58F6C0091E44B /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9D91BA58F6C0091E44B /* SocketEventHandler.swift */; };
+		9C62A9EA1BA58F6C0091E44B /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9DA1BA58F6C0091E44B /* SocketFixUTF8.swift */; };
+		9C62A9EB1BA58F6C0091E44B /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9DB1BA58F6C0091E44B /* SocketIOClient.swift */; };
+		9C62A9EC1BA58F6C0091E44B /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9DC1BA58F6C0091E44B /* SocketIOClientStatus.swift */; };
+		9C62A9ED1BA58F6C0091E44B /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9DD1BA58F6C0091E44B /* SocketLogger.swift */; };
+		9C62A9EE1BA58F6C0091E44B /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9DE1BA58F6C0091E44B /* SocketPacket.swift */; };
+		9C62A9EF1BA58F6C0091E44B /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9DF1BA58F6C0091E44B /* SocketParser.swift */; };
+		9C62A9F01BA58F6C0091E44B /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9E01BA58F6C0091E44B /* SocketTypes.swift */; };
+		9C62A9F11BA58F6C0091E44B /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9E11BA58F6C0091E44B /* SwiftRegex.swift */; };
+		9C62A9F21BA58F6C0091E44B /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62A9E21BA58F6C0091E44B /* WebSocket.swift */; };
 		9C73F53C1B649A6A002CF1B2 /* UIImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C73F53B1B649A6A002CF1B2 /* UIImagePickerManager.m */; };
 		FA28B4371B77C06B00A0D096 /* screen_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28B41A1B77BFE700A0D096 /* screen_1@2x.png */; };
 		FA28B4381B77C06B00A0D096 /* screen_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28B41B1B77BFE700A0D096 /* screen_1@3x.png */; };
@@ -159,6 +175,23 @@
 		9C50F4B71B6A453500E0F14B /* MCFileWriterUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MCFileWriterUtil.swift; path = iOS/MCFileWriterUtil.swift; sourceTree = "<group>"; };
 		9C50F4CF1B6B0C5200E0F14B /* PhotoLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoLibrary.m; path = iOS/PhotoLibrary.m; sourceTree = "<group>"; };
 		9C50F4DC1B6B0DBE00E0F14B /* PhotoLibraryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoLibraryController.swift; path = iOS/PhotoLibraryController.swift; sourceTree = "<group>"; };
+		9C62A9D11BA58F6C0091E44B /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		9C62A9D21BA58F6C0091E44B /* SocketBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketBridge.h; sourceTree = "<group>"; };
+		9C62A9D31BA58F6C0091E44B /* SocketBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketBridge.m; sourceTree = "<group>"; };
+		9C62A9D51BA58F6C0091E44B /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		9C62A9D61BA58F6C0091E44B /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		9C62A9D71BA58F6C0091E44B /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		9C62A9D81BA58F6C0091E44B /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		9C62A9D91BA58F6C0091E44B /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		9C62A9DA1BA58F6C0091E44B /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketFixUTF8.swift; sourceTree = "<group>"; };
+		9C62A9DB1BA58F6C0091E44B /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		9C62A9DC1BA58F6C0091E44B /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		9C62A9DD1BA58F6C0091E44B /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		9C62A9DE1BA58F6C0091E44B /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		9C62A9DF1BA58F6C0091E44B /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParser.swift; sourceTree = "<group>"; };
+		9C62A9E01BA58F6C0091E44B /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		9C62A9E11BA58F6C0091E44B /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		9C62A9E21BA58F6C0091E44B /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
 		9C73F5301B649A5D002CF1B2 /* UIImagePickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImagePickerManager.h; path = "node_modules/react-native-image-picker/UIImagePickerManager.h"; sourceTree = "<group>"; };
 		9C73F53B1B649A6A002CF1B2 /* UIImagePickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIImagePickerManager.m; path = "node_modules/react-native-image-picker/UIImagePickerManager.m"; sourceTree = "<group>"; };
 		9C73F5831B652B9A002CF1B2 /* BlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurView.h; sourceTree = "<group>"; };
@@ -344,6 +377,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				9C62A9D01BA58F6C0091E44B /* RNSwiftSocketIO */,
 				9C4D04651B837A670064FA58 /* Material-Design-Iconic-Font.ttf */,
 				9C19BB171B83709000AA67BD /* FontAwesome.otf */,
 				9C19BB181B83709000AA67BD /* foundation-icons.ttf */,
@@ -376,6 +410,39 @@
 				9C19BB141B83705400AA67BD /* libReactNativeIcons.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9C62A9D01BA58F6C0091E44B /* RNSwiftSocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				9C62A9D11BA58F6C0091E44B /* Socket.swift */,
+				9C62A9D21BA58F6C0091E44B /* SocketBridge.h */,
+				9C62A9D31BA58F6C0091E44B /* SocketBridge.m */,
+				9C62A9D41BA58F6C0091E44B /* SocketIOClient */,
+			);
+			name = RNSwiftSocketIO;
+			path = "node_modules/react-native-swift-socketio/RNSwiftSocketIO";
+			sourceTree = "<group>";
+		};
+		9C62A9D41BA58F6C0091E44B /* SocketIOClient */ = {
+			isa = PBXGroup;
+			children = (
+				9C62A9D51BA58F6C0091E44B /* SocketAckManager.swift */,
+				9C62A9D61BA58F6C0091E44B /* SocketAnyEvent.swift */,
+				9C62A9D71BA58F6C0091E44B /* SocketEngine.swift */,
+				9C62A9D81BA58F6C0091E44B /* SocketEngineClient.swift */,
+				9C62A9D91BA58F6C0091E44B /* SocketEventHandler.swift */,
+				9C62A9DA1BA58F6C0091E44B /* SocketFixUTF8.swift */,
+				9C62A9DB1BA58F6C0091E44B /* SocketIOClient.swift */,
+				9C62A9DC1BA58F6C0091E44B /* SocketIOClientStatus.swift */,
+				9C62A9DD1BA58F6C0091E44B /* SocketLogger.swift */,
+				9C62A9DE1BA58F6C0091E44B /* SocketPacket.swift */,
+				9C62A9DF1BA58F6C0091E44B /* SocketParser.swift */,
+				9C62A9E01BA58F6C0091E44B /* SocketTypes.swift */,
+				9C62A9E11BA58F6C0091E44B /* SwiftRegex.swift */,
+				9C62A9E21BA58F6C0091E44B /* WebSocket.swift */,
+			);
+			path = SocketIOClient;
 			sourceTree = "<group>";
 		};
 		9C73F5821B652B9A002CF1B2 /* RNBlur */ = {
@@ -459,6 +526,8 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
@@ -655,13 +724,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C62A9E81BA58F6C0091E44B /* SocketEngineClient.swift in Sources */,
+				9C62A9E71BA58F6C0091E44B /* SocketEngine.swift in Sources */,
+				9C62A9E31BA58F6C0091E44B /* Socket.swift in Sources */,
 				9C50F46D1B6A415100E0F14B /* MCFileWriterUtil.m in Sources */,
+				9C62A9F01BA58F6C0091E44B /* SocketTypes.swift in Sources */,
+				9C62A9F11BA58F6C0091E44B /* SwiftRegex.swift in Sources */,
+				9C62A9E91BA58F6C0091E44B /* SocketEventHandler.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				9C62A9EA1BA58F6C0091E44B /* SocketFixUTF8.swift in Sources */,
+				9C62A9EE1BA58F6C0091E44B /* SocketPacket.swift in Sources */,
 				9C50F4DD1B6B0DBE00E0F14B /* PhotoLibraryController.swift in Sources */,
+				9C62A9E61BA58F6C0091E44B /* SocketAnyEvent.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				9C62A9F21BA58F6C0091E44B /* WebSocket.swift in Sources */,
+				9C62A9EF1BA58F6C0091E44B /* SocketParser.swift in Sources */,
 				9C50F4D01B6B0C5200E0F14B /* PhotoLibrary.m in Sources */,
+				9C62A9E51BA58F6C0091E44B /* SocketAckManager.swift in Sources */,
+				9C62A9EC1BA58F6C0091E44B /* SocketIOClientStatus.swift in Sources */,
 				9C50F4B81B6A453500E0F14B /* MCFileWriterUtil.swift in Sources */,
+				9C62A9ED1BA58F6C0091E44B /* SocketLogger.swift in Sources */,
+				9C62A9E41BA58F6C0091E44B /* SocketBridge.m in Sources */,
 				9C73F53C1B649A6A002CF1B2 /* UIImagePickerManager.m in Sources */,
+				9C62A9EB1BA58F6C0091E44B /* SocketIOClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,11 +822,12 @@
 					"$(SRCROOT)/node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = HelloWorld;
 				SWIFT_OBJC_BRIDGING_HEADER = "HelloWorld-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "node_modules/react-native-swift-socketio/RNSwiftSocketIO/SocketBridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -758,11 +844,12 @@
 					"$(SRCROOT)/node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = HelloWorld;
 				SWIFT_OBJC_BRIDGING_HEADER = "HelloWorld-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "node_modules/react-native-swift-socketio/RNSwiftSocketIO/SocketBridge.h";
 			};
 			name = Release;
 		};
@@ -809,6 +896,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -848,6 +936,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

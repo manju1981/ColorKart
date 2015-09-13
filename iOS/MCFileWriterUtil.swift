@@ -32,9 +32,13 @@ class MCFileWriterUtil: NSObject {
     // Initialize an NSError variable
     var writeError: NSError?
     
-    // Here we save contents to disk by executing the writeToFile method of
-    // the contents String, which is the second argument to this function.
-    contents.writeToFile(fileNameWithPath, atomically: false, encoding: NSUTF8StringEncoding, error: &writeError)
+    do {
+      // Here we save contents to disk by executing the writeToFile method of
+      // the contents String, which is the second argument to this function.
+      try contents.writeToFile(fileNameWithPath, atomically: false, encoding: NSUTF8StringEncoding)
+    } catch let error as NSError {
+      writeError = error
+    }
     
     // Error Condition handling
     if writeError != nil {
@@ -90,7 +94,13 @@ class MCFileWriterUtil: NSObject {
     
     // Allocate a string and initialize it with the contents of the file via
     // the contentsOfFile convenience init.
-    let fileContents = NSString(contentsOfFile: fileNameWithPath, encoding: NSUTF8StringEncoding, error: &readError)
+    let fileContents: NSString?
+    do {
+      fileContents = try NSString(contentsOfFile: fileNameWithPath, encoding: NSUTF8StringEncoding)
+    } catch let error as NSError {
+      readError = error
+      fileContents = nil
+    }
     NSLog("Reading from \(fileNameWithPath)")
     
     // Error Condition handling

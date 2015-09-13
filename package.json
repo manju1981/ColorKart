@@ -10,7 +10,8 @@
     "react-native-custom-navigation": "git+https://github.com/gbhasha/react-native-custom-navigation.git",
     "react-native-icons": "^0.3.4",
     "react-native-image-picker": "^0.3.2",
-    "react-native-looped-carousel": "git+https://github.com/gbhasha/react-native-looped-carousel.git"
+    "react-native-looped-carousel": "git+https://github.com/gbhasha/react-native-looped-carousel.git",
+    "react-native-swift-socketio":"git+https://github.com/manju1981/react-native-swift-socketio.git"
   },
   "devDependencies": {
     "react": "^0.13.3"
