@@ -98,13 +98,13 @@ class HomePage extends Component{
   constructor () {
     super();
     //this.socket = new SocketIO('54.186.174.180:8082', {forceWebsockets:true});
-    this.socket = new SocketIO('127.0.0.1:5000', {forceWebsockets:true, log: true});
+  //  this.socket = new SocketIO('127.0.0.1:5000', {forceWebsockets:true, log: true});
     this.state = { avatarSource :'http://iphonewallpapers-hd.com/thumbs/firework_iphone_wallpaper_5-t2.jpg' };
   }
 
   componentDidMount () {
     console.log("mount");
-    this.socket.on('connect', () => {
+  /*  this.socket.on('connect', () => {
       console.log("connected");
       this.setState({
         status: 'Connected'
@@ -116,14 +116,14 @@ class HomePage extends Component{
       this.setState({
         status: 'error'
       });
-    });
+    });*/
 
-    this.socket.on('responseevent', (responseevent) => {
+    /*this.socket.on('responseevent', (responseevent) => {
       console.log(responseevent);
     });
 
     console.log("connect");
-    this.socket.connect();
+    this.socket.connect();*/
   }
 
   emitEvent(){
@@ -161,7 +161,7 @@ class HomePage extends Component{
                               highlightedColor='#007655'
                               title='Upload Photo'
                               titleStyle={{color:'white'}}
-                              onPress={() => this.emitEvent()}
+                              onPress={() => this.goToTweet()}
                             />
                   </View>
            </View>
